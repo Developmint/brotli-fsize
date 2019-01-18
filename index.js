@@ -10,7 +10,7 @@ module.exports = (input, options) => {
     return Promise.resolve(0)
   }
 
-  return pify(zlib.BrotliCompress)(input, options)
+  return pify(zlib.brotliCompress)(input, options)
     .then(data => data.length)
     .catch(_ => 0)
 }
