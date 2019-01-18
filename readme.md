@@ -1,4 +1,4 @@
-# brotli-fsize [![Build Status](https://travis-ci.org/manniL/brotli-fsize.svg?branch=master)](https://travis-ci.org/manniL/brotli-fsize)
+# brotli-fsize [![Build Status](https://travis-ci.org/Developmint/brotli-fsize.svg?branch=master)](https://travis-ci.org/Developmint/brotli-fsize)
 
 > Get the brotli-compressed size of a string or buffer
 
@@ -67,7 +67,7 @@ Returns the size of the file.
 
 ## License
 
-Inspired by [gzip-size](https://github.com/manniL/gzip-size#readme)
+Inspired by [gzip-size](https://github.com/sindresorhus/gzip-size#readme)
 
 
 MIT © Developmint (Alexander Lichter)
