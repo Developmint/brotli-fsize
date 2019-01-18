@@ -1,0 +1,50 @@
+{
+  "name": "brotli-fsize",
+  "version": "1.0.0",
+  "description": "Get the brotli-compressed size of a string or buffer",
+  "license": "MIT",
+  "repository": "Developmint/gzip-size",
+  "author": {
+    "name": "Alexander Lichter",
+    "email": "npm@lichter.io",
+    "url": "lichter.io"
+  },
+  "engines": {
+    "node": ">=11.7.0"
+  },
+  "scripts": {
+    "test": "yarn lint && ava",
+    "lint": "eslint ."
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "app",
+    "tool",
+    "zlib",
+    "brotli",
+    "compressed",
+    "size",
+    "string",
+    "buffer"
+  ],
+  "dependencies": {
+    "duplexer": "^0.1.1",
+    "pify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "ava": "*",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.3",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "p-event": "^2.1.0"
+  }
+}
