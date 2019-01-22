@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Get the brotli-compressed size of a string or buffer",
   "license": "MIT",
-  "repository": "Developmint/gzip-size",
+  "repository": "Developmint/brotli-fsize",
   "author": {
     "name": "Alexander Lichter",
     "email": "npm@lichter.io",
