@@ -1,6 +1,6 @@
 {
   "name": "brotli-fsize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get the brotli-compressed size of a string or buffer",
   "license": "MIT",
   "repository": "Developmint/brotli-fsize",
